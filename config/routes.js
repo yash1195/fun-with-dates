@@ -34,6 +34,11 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
+  },
+
+  '/getData': {
+    action: 'getDateInformation',
+    controller: 'DefaultController'
   }
 
   /***************************************************************************
