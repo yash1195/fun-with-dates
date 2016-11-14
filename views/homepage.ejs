@@ -18,12 +18,13 @@
 
 <div id='form-container'>
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input class="mdl-textfield__input" type="text" id="day" name="day">
-    <label class="mdl-textfield__label" for="day">Day</label>
+    <input class="mdl-textfield__input" type="text" id="day" name="day" >
+    <label class="mdl-textfield__label" for="day">DD</label>
   </div>
+  <span id='slash'>/</span>
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input class="mdl-textfield__input" type="text" id="month" name="month">
-    <label class="mdl-textfield__label" for="month">Month</label>
+    <input class="mdl-textfield__input" type="text" id="month" name="month" >
+    <label class="mdl-textfield__label" for="month">MM</label>
   </div>
   <div>
     <button id='go' class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
@@ -58,7 +59,7 @@
     font-size: 16px !important;
   }
   .mdl-textfield{
-    margin: 100px;
+    margin: 50px;
     margin-bottom: 50px;
     margin-top: 150px;
   }
@@ -84,6 +85,12 @@
   }
   .fa-heart{
     color: #c0392b;
+  }
+  #slash{
+    font-size: 90px;
+    font-weight: 900;
+    position: relative;
+    top: -80px;
   }
 </style>
 
